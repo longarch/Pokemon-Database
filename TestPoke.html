@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://papaparse.com/resources/js/papaparse.js"></script>
+  <script src="dataread.js"></script>
+  <!--link rel="stylesheet" href="main.css"-->
+  <meta charset="utf-8">
+<meta http-equiv="refresh" content="120"><!-- REFRESH EVERY 2 minutes -->
+  <title>OG Pokemon Database</title>
+  <style>
+    table {
+        background-color: #aaa;
+    }
+    tbody {
+        background-color: #ddd;
+        overflow: scroll;
+    }
+    td {
+        padding: 3px 10px;
+    }
+    thead{
+        background-color: #aaa;
+        display: block;
+    }
+    .results #True tr{
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+<button id="showStats" onclick="ShowHide()">Legendaries</button>
+  <table id="results">
+   
+    <!--tbody>
+    </tbody-->
+  </table>
+
+
+  
+</body>
+</html>
